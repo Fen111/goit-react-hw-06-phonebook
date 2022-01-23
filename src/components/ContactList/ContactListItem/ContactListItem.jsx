@@ -11,9 +11,7 @@ export default function ContactListItem({ name, number, id, onDeleteContact }) {
         className={s.itemButton}
         type="button"
         onClick={() => onDeleteContact(id)}
-      >
-        delete
-      </button>
+      ></button>
     </>
   );
 }
