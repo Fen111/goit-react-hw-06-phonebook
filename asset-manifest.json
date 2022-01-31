@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-06-phonebook/static/css/main.81b1017f.chunk.css",
-    "main.js": "/goit-react-hw-06-phonebook/static/js/main.4c548363.chunk.js",
-    "main.js.map": "/goit-react-hw-06-phonebook/static/js/main.4c548363.chunk.js.map",
+    "main.css": "/goit-react-hw-06-phonebook/static/css/main.393a1c3f.chunk.css",
+    "main.js": "/goit-react-hw-06-phonebook/static/js/main.b9e42d39.chunk.js",
+    "main.js.map": "/goit-react-hw-06-phonebook/static/js/main.b9e42d39.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-06-phonebook/static/js/runtime-main.d5d8a0da.js",
     "runtime-main.js.map": "/goit-react-hw-06-phonebook/static/js/runtime-main.d5d8a0da.js.map",
     "static/css/2.bc922b9c.chunk.css": "/goit-react-hw-06-phonebook/static/css/2.bc922b9c.chunk.css",
-    "static/js/2.429180e3.chunk.js": "/goit-react-hw-06-phonebook/static/js/2.429180e3.chunk.js",
-    "static/js/2.429180e3.chunk.js.map": "/goit-react-hw-06-phonebook/static/js/2.429180e3.chunk.js.map",
+    "static/js/2.ca2235b5.chunk.js": "/goit-react-hw-06-phonebook/static/js/2.ca2235b5.chunk.js",
+    "static/js/2.ca2235b5.chunk.js.map": "/goit-react-hw-06-phonebook/static/js/2.ca2235b5.chunk.js.map",
     "index.html": "/goit-react-hw-06-phonebook/index.html",
     "static/css/2.bc922b9c.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/2.bc922b9c.chunk.css.map",
-    "static/css/main.81b1017f.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/main.81b1017f.chunk.css.map",
-    "static/js/2.429180e3.chunk.js.LICENSE.txt": "/goit-react-hw-06-phonebook/static/js/2.429180e3.chunk.js.LICENSE.txt",
+    "static/css/main.393a1c3f.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/main.393a1c3f.chunk.css.map",
+    "static/js/2.ca2235b5.chunk.js.LICENSE.txt": "/goit-react-hw-06-phonebook/static/js/2.ca2235b5.chunk.js.LICENSE.txt",
     "static/media/ContactListItem.module.css": "/goit-react-hw-06-phonebook/static/media/delete.a35831b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d5d8a0da.js",
     "static/css/2.bc922b9c.chunk.css",
-    "static/js/2.429180e3.chunk.js",
-    "static/css/main.81b1017f.chunk.css",
-    "static/js/main.4c548363.chunk.js"
+    "static/js/2.ca2235b5.chunk.js",
+    "static/css/main.393a1c3f.chunk.css",
+    "static/js/main.b9e42d39.chunk.js"
   ]
 }
