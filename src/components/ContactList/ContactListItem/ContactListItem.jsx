@@ -1,9 +1,13 @@
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import actions from 'redux/actions';
 import s from './ContactListItem.module.css';
 
-export default function ContactListItem({ name, number, id, onDeleteContact }) {
+export default function ContactListItem({ name, number, id }) {
+  const dispatch = useDispatch();
+  const onDeleteContact = id => dispatch(actions.deleteContact(id));
   return (
-    <>
+    <li className={s.listItem}>
       <p className={s.text}>
         {name}: {number}
       </p>
@@ -11,8 +15,8 @@ export default function ContactListItem({ name, number, id, onDeleteContact }) {
         className={s.itemButton}
         type="button"
         onClick={() => onDeleteContact(id)}
-      ></button>
-    </>
+      />
+    </li>
   );
 }
 

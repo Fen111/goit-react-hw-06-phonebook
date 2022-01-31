@@ -11,7 +11,7 @@ import {
 } from 'redux-persist';
 import logger from 'redux-logger';
 import storage from 'redux-persist/lib/storage';
-import rootReducer from './reducer';
+import rootReducer from './reducers';
 
 const contactsPersistConfig = {
   key: 'contacts',

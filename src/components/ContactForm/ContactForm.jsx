@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { nanoid } from 'nanoid';
 import { useSelector, useDispatch } from 'react-redux';
 import { getItems } from '../../redux/selectors';
 import actions from 'redux/actions';
@@ -25,7 +24,7 @@ export default function ContactForm() {
       alert(`${data.number} is already in contacts!`);
       return;
     }
-    dispatch(actions.addContact({ name, number, id: nanoid() }));
+    dispatch(actions.addContact({ name, number }));
   };
 
   const handleSubmit = event => {
